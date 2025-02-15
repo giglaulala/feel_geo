@@ -1,5 +1,5 @@
 import "./Card.css"; // Import card styles
-
+import PropTypes from "prop-types";
 function Card(props) {
   return (
     <div className="card">
@@ -14,5 +14,12 @@ function Card(props) {
     </div>
   );
 }
+
+Card.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+  description: PropTypes.string,
+  price: PropTypes.number,
+};
 
 export default Card;

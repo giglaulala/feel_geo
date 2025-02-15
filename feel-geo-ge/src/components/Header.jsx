@@ -7,10 +7,10 @@ function Header() {
         <div className="logo">
           <a href="">Feel Geo</a>
         </div>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Contact</a>
+        <a href="">მთავარი</a>
+        <a href="">ჩვენს შესახებ</a>
+        <a href="">სერვისები</a>
+        <a href="">კონტაქტი</a>
       </nav>
     </header>
   );
