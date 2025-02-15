@@ -4,7 +4,7 @@ function Card(props) {
   return (
     <div className="card">
       <div className="card-image">
-        <img src={props.image} alt={props.name} />
+        <img src={props.img} alt={props.name} />
       </div>
       <div className="card-content">
         <h3 className="card-name">{props.name}</h3>
@@ -16,7 +16,7 @@ function Card(props) {
 }
 
 Card.propTypes = {
-  image: PropTypes.string,
+  img: PropTypes.string,
   name: PropTypes.string,
   description: PropTypes.string,
   price: PropTypes.number,
