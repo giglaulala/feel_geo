@@ -19,3 +19,13 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
+@font-face {
+  font-family: "feelGeoFont";
+  src: url("/src/assets/fonts/feelGeoFont.ttf") format("truetype");
+}
+
+.geoText {
+  font-family: "feelGeoFont", sans-serif;
+  font-size: large;
+}

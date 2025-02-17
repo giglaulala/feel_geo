@@ -1,16 +1,24 @@
-import "./Header.css";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
     <header>
       <nav>
-        <div className="logo">
+        <div className={styles.logo}>
           <a href="">Feel Geo</a>
         </div>
-        <a href="">მთავარი</a>
-        <a href="">ჩვენს შესახებ</a>
-        <a href="">სერვისები</a>
-        <a href="">კონტაქტი</a>
+        <a className={styles.geoText} href="">
+          მთავარი
+        </a>
+        <a className={styles.geoText} href="">
+          ჩვენს შესახებ
+        </a>
+        <a className={styles.geoText} href="">
+          სერვისები
+        </a>
+        <a className={styles.geoText} href="">
+          კონტაქტი
+        </a>
       </nav>
     </header>
   );

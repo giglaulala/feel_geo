@@ -1,9 +1,9 @@
 import Card from "./Card.jsx";
-import "./Main.css";
+import styles from "./Main.module.css";
 
 function Main() {
   return (
-    <div>
+    <div className={styles.mainDiv}>
       <Card
         img={"sea-7375377_1280.jpg"}
         name={"Tour"}

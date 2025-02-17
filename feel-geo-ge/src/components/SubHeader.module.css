@@ -1,0 +1,5 @@
+.mainDiv {
+  width: 100%;
+  background-image: url("tbilisi.jpg");
+  background-size: cover;
+}

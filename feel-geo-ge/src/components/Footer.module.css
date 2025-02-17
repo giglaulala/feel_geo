@@ -1,18 +1,16 @@
-
 html,
 body {
   height: 100%;
-  margin: 0; 
+  margin: 0;
 }
 
 body {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
-
-.main-content {
-  flex: 1; 
+.mainContent {
+  flex: 1;
 }
 
 footer {
@@ -22,21 +20,21 @@ footer {
   text-align: center;
 }
 
-.footer-content {
+.footerContent {
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.footer-links {
+.footerLinks {
   margin-top: 10px;
 }
 
-.footer-links a {
+.footerLinks a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
 }
 
-.footer-links a:hover {
+.footerLinks a:hover {
   text-decoration: underline;
 }
