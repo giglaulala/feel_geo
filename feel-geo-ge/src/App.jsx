@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header className="header" />
-      <SubHeader />
+      <SubHeader className="sub" />
       <Main className="main" />
       <Footer className="footer" />
     </div>

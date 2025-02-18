@@ -2,4 +2,22 @@
   width: 100%;
   background-image: url("tbilisi.jpg");
   background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainText {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.subText {
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
 }
