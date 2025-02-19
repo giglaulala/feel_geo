@@ -5,20 +5,20 @@ function Header() {
     <header>
       <nav>
         <div className={styles.logo}>
-          <a href="">Feel Geo</a>
+          <link to="/">Feel Geo</link>
         </div>
-        <a className={styles.geoText} href="">
+        <link to="/" className={styles.geoText}>
           მთავარი
-        </a>
-        <a className={styles.geoText} href="">
+        </link>
+        <link to="/about" className={styles.geoText}>
           ჩვენს შესახებ
-        </a>
-        <a className={styles.geoText} href="">
+        </link>
+        <link to="/services" className={styles.geoText}>
           სერვისები
-        </a>
-        <a className={styles.geoText} href="">
+        </link>
+        <link to="/contact" className={styles.geoText}>
           კონტაქტი
-        </a>
+        </link>
       </nav>
     </header>
   );
