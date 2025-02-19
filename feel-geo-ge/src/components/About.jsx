@@ -1,10 +1,10 @@
-import { styles } from "./About.module.css";
+import styles from "./About.module.css";
 
 function About() {
   return (
-    <div>
-      <h1 className={styles.head}>ჩვენს შესახებ</h1>
-      <div>
+    <div className={styles.mainDiv}>
+      <h1>ჩვენს შესახებ</h1>
+      <div className={styles.mainText}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
         cupiditate quis id enim, iusto ea ipsa, impedit rerum vel modi magnam
         voluptatem, officiis eos eveniet a numquam. Voluptas, placeat nostrum.
