@@ -1,5 +1,9 @@
 function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <h1>ჩვენს შესახებ</h1>
+    </div>
+  );
 }
 
 export default About;
