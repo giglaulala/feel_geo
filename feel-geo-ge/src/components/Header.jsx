@@ -1,24 +1,24 @@
 import styles from "./Header.module.css";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
       <nav>
         <div className={styles.logo}>
-          <link to="/">Feel Geo</link>
+          <Link to="/">Feel Geo</Link>
         </div>
-        <link to="/" className={styles.geoText}>
+        <Link to="/" className={styles.geoText}>
           მთავარი
-        </link>
-        <link to="/about" className={styles.geoText}>
+        </Link>
+        <Link to="/about" className={styles.geoText}>
           ჩვენს შესახებ
-        </link>
-        <link to="/services" className={styles.geoText}>
+        </Link>
+        <Link to="/services" className={styles.geoText}>
           სერვისები
-        </link>
-        <link to="/contact" className={styles.geoText}>
+        </Link>
+        <Link to="/contact" className={styles.geoText}>
           კონტაქტი
-        </link>
+        </Link>
       </nav>
     </header>
   );
