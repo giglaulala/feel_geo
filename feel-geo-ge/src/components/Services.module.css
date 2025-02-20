@@ -1,0 +1,7 @@
+.mainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding-left: 45px; */
+}
