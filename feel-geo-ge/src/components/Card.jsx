@@ -1,17 +1,21 @@
 import styles from "./Card.module.css";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+
 function Card(props) {
   return (
-    <div className={styles.card}>
-      <div className={styles.cardImage}>
-        <img src={props.img} alt={props.name} />
+    <Link to="/card_info">
+      <div className={styles.card}>
+        <div className={styles.cardImage}>
+          <img src={props.img} alt={props.name} />
+        </div>
+        <div className={styles.cardContent}>
+          <h3 className={styles.cardName}>{props.name}</h3>
+          <p className={styles.cardDescription}>{props.description}</p>
+          <p className={styles.cardPrice}>${props.price}</p>
+        </div>
       </div>
-      <div className={styles.cardContent}>
-        <h3 className={styles.cardName}>{props.name}</h3>
-        <p className={styles.cardDescription}>{props.description}</p>
-        <p className={styles.cardPrice}>${props.price}</p>
-      </div>
-    </div>
+    </Link>
   );
 }
 

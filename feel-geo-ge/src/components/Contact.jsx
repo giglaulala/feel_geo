@@ -12,6 +12,17 @@ function Contact() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+
+      <div className={styles.contactInfo}>
+        <div>
+          <img src="/phone-svgrepo-com.svg" className={styles.svg} /> +995 551
+          105 422
+        </div>
+        <div>
+          <img src="/mail-svgrepo-com.svg" className={styles.svg} /> @
+          feel-geo@gmail.com
+        </div>
+      </div>
     </div>
   );
 }

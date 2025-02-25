@@ -4,6 +4,7 @@ import Main from "./components/Main.jsx";
 import About from "./components/About.jsx";
 import Services from "./components/Services.jsx";
 import Contact from "./components/Contact.jsx";
+import CardInfo from "./components/CardInfo.jsx";
 import { Routes, Route } from "react-router-dom";
 import "./App.module.css";
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/card_info" element={<CardInfo />} />
       </Routes>
       <Footer className="footer" />
     </div>
