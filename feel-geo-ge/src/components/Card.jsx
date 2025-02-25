@@ -4,7 +4,15 @@ import { Link } from "react-router-dom";
 
 function Card(props) {
   return (
-    <Link to="/card_info">
+    <Link
+      to={`/card_info/${props.name}`}
+      state={{
+        img: props.img,
+        name: props.name,
+        description: props.description,
+        price: props.price,
+      }}
+    >
       <div className={styles.card}>
         <div className={styles.cardImage}>
           <img src={props.img} alt={props.name} />
