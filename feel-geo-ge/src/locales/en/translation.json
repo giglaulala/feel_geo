@@ -1,4 +1,10 @@
 {
   "welcome": "Welcome to our website!",
-  "change_language": "Change Language"
+  "change_language": "Change Language",
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "contact": "Contact",
+  "abouttext": "Our website is designed to showcase the unique beauty and rich culture of Georgia. We offer tourism services that help you experience the country's diversity—from ancient cities and monasteries to breathtaking mountain and seaside landscapes.Our team consists of experienced professionals in the tourism industry, ready to plan an unforgettable journey for you. We provide organized tours, personalized itineraries, transportation, guided services, and authentic experiences that allow you to connect with Georgian traditions, cuisine, and people.Our goal is to offer you a comfortable, safe, and truly memorable travel experience. Whether you're exploring historical sites, enjoying a wine tasting in Kakheti, discovering snowy resorts, or embarking on adrenaline-filled adventure tours, your journey with us will be unforgettable!Discover Georgia with us and experience its beauty with all your heart!",
+  "contactinfo": "Contact Info"
 }

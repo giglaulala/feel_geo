@@ -1,6 +1,8 @@
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 function Header() {
+  const { t } = useTranslation();
   return (
     <header>
       <nav>
@@ -8,16 +10,16 @@ function Header() {
           <Link to="/">Feel Geo</Link>
         </div>
         <Link to="/" className={styles.geoText}>
-          მთავარი
+          {t("home")}
         </Link>
         <Link to="/about" className={styles.geoText}>
-          ჩვენს შესახებ
+          {t("about")}
         </Link>
         <Link to="/services" className={styles.geoText}>
-          სერვისები
+          {t("services")}
         </Link>
         <Link to="/contact" className={styles.geoText}>
-          კონტაქტი
+          {t("contact")}
         </Link>
       </nav>
     </header>

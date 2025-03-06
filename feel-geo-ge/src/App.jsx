@@ -7,6 +7,7 @@ import Contact from "./components/Contact.jsx";
 import CardInfo from "./components/CardInfo.jsx";
 import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
 import { Routes, Route } from "react-router-dom";
+import "./i18n";
 import "./App.module.css";
 
 function App() {
