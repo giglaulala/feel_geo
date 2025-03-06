@@ -5,18 +5,21 @@ function About() {
     <div className={styles.mainDiv}>
       <h1>ჩვენს შესახებ</h1>
       <div className={styles.mainText}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-        cupiditate quis id enim, iusto ea ipsa, impedit rerum vel modi magnam
-        voluptatem, officiis eos eveniet a numquam. Voluptas, placeat nostrum.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti
-        qui dignissimos numquam, ut sunt illo veniam autem voluptatem, rem
-        debitis fugiat dolores veritatis inventore ducimus error quas aliquam
-        in. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem et
-        earum, aut veniam debitis harum quis quas rerum eius fugit ullam vero
-        dolor id, animi eos cupiditate? Non, iusto ex. Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Aliquid quas exercitationem
-        laboriosam molestias labore ex, id quod at autem? Harum recusandae
-        tempore ad debitis est quas laboriosam eveniet incidunt aut.
+        ჩვენი ვებგვერდი შექმნილია საქართველოს უნიკალური სილამაზისა და კულტურის
+        აღმოსაჩენად. ჩვენ გთავაზობთ ტურისტულ მომსახურებებს, რომლებიც
+        დაგეხმარებათ შეიგრძნოთ საქართველოს მრავალფეროვნება – უძველესი
+        ქალაქებიდან და მონასტრებიდან საოცარი მთისა და ზღვის პეიზაჟებამდე. ჩვენი
+        გუნდი ტურიზმის სფეროში მრავალწლიანი გამოცდილების მქონე
+        პროფესიონალებისგან შედგება, რომლებიც მზად არიან დაგიგეგმონ დაუვიწყარი
+        მოგზაურობა. გთავაზობთ ორგანიზებულ ტურებს, მარშრუტების პერსონალიზაციას,
+        ტრანსპორტირებას, გიდის მომსახურებას და ავთენტურ გამოცდილებებს, რომლებიც
+        საშუალებას მოგცემთ ახლოს გაეცნოთ ქართულ ტრადიციებს, სამზარეულოსა და
+        ხალხს. ჩვენი მიზანია მოგაწოდოთ კომფორტული, უსაფრთხო და შთამბეჭდავი
+        ტურისტული გამოცდილება. იქნება ეს ისტორიული ადგილების მონახულება, ღვინის
+        დეგუსტაცია კახეთში, თოვლიანი კურორტების აღმოჩენა თუ ადრენალინით სავსე
+        სათავგადასავლო ტურები – ჩვენთან თქვენი მოგზაურობა დაუვიწყარი გახდება!
+        აღმოაჩინეთ საქართველო ჩვენთან ერთად და განიცადეთ მისი სილამაზე მთელი
+        გულით!
       </div>
     </div>
   );

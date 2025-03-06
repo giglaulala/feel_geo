@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Services from "./components/Services.jsx";
 import Contact from "./components/Contact.jsx";
 import CardInfo from "./components/CardInfo.jsx";
+import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
 import { Routes, Route } from "react-router-dom";
 import "./App.module.css";
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Header />
+      <LanguageSwitcher />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />

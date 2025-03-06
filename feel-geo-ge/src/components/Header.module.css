@@ -22,16 +22,6 @@ body {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "feelGeoFont";
-  src: url("/src/assets/fonts/feelGeoFont.ttf") format("truetype");
-}
-
-.geoText {
-  font-family: "feelGeoFont", sans-serif;
-  font-size: large;
-}
-
 @media (max-width: 768px) {
   nav {
     flex-direction: column;

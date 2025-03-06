@@ -7,4 +7,12 @@ a :hover {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "feelGeoFont";
+  src: url("/src/assets/fonts/feelGeoFont.ttf") format("truetype");
+}
 
+* {
+  font-family: "feelGeoFont", sans-serif;
+  font-size: large;
+}
